@@ -1,0 +1,77 @@
+<?php
+
+// This file is part of Moodle - http://moodle.org/
+//
+// Moodle is free software: you can redistribute it and/or modify
+// it under the terms of the GNU General Public License as published by
+// the Free Software Foundation, either version 3 of the License, or
+// (at your option) any later version.
+//
+// Moodle is distributed in the hope that it will be useful,
+// but WITHOUT ANY WARRANTY; without even the implied warranty of
+// MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+// GNU General Public License for more details.
+//
+// You should have received a copy of the GNU General Public License
+// along with Moodle.  If not, see <http://www.gnu.org/licenses/>.
+
+/**
+ * Strings for component 'plagiarism_urkund', language 'en', branch 'MOODLE_20_STABLE'
+ *
+ * @package   plagiarism_urkund
+ * @copyright 1999 onwards Martin Dougiamas  {@link http://moodle.com}
+ * @license   http://www.gnu.org/copyleft/gpl.html GNU GPL v3 or later
+ */
+
+defined('MOODLE_INTERNAL') || die();
+
+$string['defaultsdesc'] = 'The following settings are the defaults set when enabling URKUND within an Activity Module';
+$string['defaultupdated'] = 'Default values updated';
+$string['filereset'] = 'A file has been reset for re-submission to URKUND';
+$string['noreceiver'] = 'No receiver address was specified';
+$string['optout'] = 'Opt-out';
+$string['pending'] = 'This file is pending submission to URKUND';
+$string['pluginname'] = 'URKUND plagiarism plugin';
+$string['previouslysubmitted'] = 'Previously submitted as';
+$string['processing'] = 'This file has been submitted to URKUND, now waiting for the analysis to be available';
+$string['report'] = 'report';
+$string['savedconfigfailed'] = 'An incorrect username/password combination has been entered, URKUND has been disabled, please try again.';
+$string['savedconfigsuccess'] = 'Plagiarism Settings Saved';
+$string['showwhenclosed'] = 'When Activity closed';
+$string['similarity'] = 'URKUND';
+$string['studentdisclosure'] = 'Student Disclosure';
+$string['studentdisclosuredefault'] = 'All files uploaded will be submitted to the plagiarism detection service URKUND,
+If you wish to prevent your document from being used as a source for analysis outside this site by other organisations you can use the opt-out link provided after the report has been generated.';
+$string['studentdisclosure_help'] = 'This text will be displayed to all students on the file upload page.';
+$string['studentemailcontent'] = 'The file you submitted to {$a->modulename} in {$a->coursename} has now been processed by the Plagiarism tool URKUND.
+{$a->modulelink}
+
+If you wish to prevent your document from being used as a source for analysis outside this site by other organisations you can use this link to opt-out:.
+{$a->optoutlink}';
+$string['studentemailsubject'] = 'File processed by URKUND';
+$string['submitondraft'] = 'Submit file when first uploaded';
+$string['submitonfinal'] = 'Submit file when student sends for marking';
+$string['toolarge'] = 'This file is too large for URKUND to process';
+$string['unknownwarning'] = 'An error occurred trying to send this file to URKUND';
+$string['unsupportedfiletype'] = 'This filetype is not supported by URKUND';
+$string['urkund'] = 'URKUND plagiarism plugin';
+$string['urkund_api'] = 'URKUND Integration Address';
+$string['urkund_api_help'] = 'This is the address of the URKUND API';
+$string['urkunddefaults'] = 'URKUND defaults';
+$string['urkund_draft_submit'] = 'When should the file be submitted to URKUND';
+$string['urkundexplain'] = 'For more information on this plugin see: <a href="http://www.urkund.com/int/en/" target="_blank">http://www.urkund.com/int/en/</a>';
+$string['urkund_lang'] = 'Language';
+$string['urkund_lang_help'] = 'Language code provided by URKUND';
+$string['urkund_password'] = 'Password';
+$string['urkund_password_help'] = 'Password provided by URKUND to access the API';
+$string['urkund_receiver'] = 'Receiver address';
+$string['urkund_receiver_help'] = 'This is the unique address provided from URKUND for the teacher';
+$string['urkund_show_student_report'] = 'Show similarity report to student';
+$string['urkund_show_student_report_help'] = 'The similarity report gives a breakdown on what parts of the submission were plagiarised and the location that URKUND first saw this content';
+$string['urkund_show_student_score'] = 'Show similarity score to student';
+$string['urkund_show_student_score_help'] = 'The similarity score is the percentage of the submission that has been matched with other content.';
+$string['urkund_studentemail'] = 'Send Student email';
+$string['urkund_studentemail_help'] = 'This will send an e-mail to the student when a file has been processed to let them know that a report is available, the e-mail also includes the opt-out link.';
+$string['urkund_username'] = 'Username';
+$string['urkund_username_help'] = 'Username provided by URKUND to access the API';
+$string['useurkund'] = 'Enable URKUND';
