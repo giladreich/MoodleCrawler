@@ -8,7 +8,7 @@
     <ProjectGuid>{60EB5492-710B-4641-B7B9-6FC9E629A7F3}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Moodle.WebCrawler</RootNamespace>
-    <AssemblyName>Moodle.WebCrawler</AssemblyName>
+    <AssemblyName>MoodleCrawler</AssemblyName>
     <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Moodle.WebCrawler")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("Moodle Crawler")]
+[assembly: AssemblyDescription("Downloads all resources from the Moodle server.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Moodle.WebCrawler")]
-[assembly: AssemblyCopyright("Copyright ©  2018")]
+[assembly: AssemblyProduct("Moodle WebCrawler")]
+[assembly: AssemblyCopyright("Copyright ©  2018 Reich")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
