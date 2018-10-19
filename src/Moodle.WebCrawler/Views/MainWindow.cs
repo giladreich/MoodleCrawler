@@ -188,6 +188,7 @@ namespace Moodle.WebCrawler.Views
             {
                 e.Cancel = true;
                 ResetUserLanguageToDefault();
+                userPreferredLanguage = null;
 
                 Close();
             }
